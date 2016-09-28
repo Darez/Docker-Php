@@ -6,7 +6,7 @@ RUN rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
 RUN yum -y update
 RUN yum clean all
-RUN yum install -y httpd php54w
+RUN yum install -y httpd php55w
 RUN yum clean all
 
 EXPOSE 80

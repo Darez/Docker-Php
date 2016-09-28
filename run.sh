@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PACKAGEPREFIX='php54w-'
+PACKAGEPREFIX='php55w-'
 
 if [ ! -f "/started" ]
 then
